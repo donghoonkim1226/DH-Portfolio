@@ -1,0 +1,34 @@
+body, html {
+  height: 100%;
+}
+
+.bgContainer {
+  position: relative;
+  z-index: 1;
+  background-position: center;
+}
+
+.bgContainer::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.bg {
+  background-image: url('../images/bg1.jpg');
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+/* Nav Styles */
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
