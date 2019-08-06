@@ -3,61 +3,249 @@
 
 <head>
   <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <title>DH Portfolio</title>
-  <link rel="stylesheet" href="styles/portfolio.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="bgContainer bg">
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">DH</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
+
+  <!-- Start Navigation -->
+  <nav class="navbar navbar-default nav-style" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="index.html">DH</a>
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#portfolio">Works</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </nav>
-    <div class="container homePageSummaryContainer">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="homePageHeader">DH.KIM</div>
-          <div class="doubleBorder"></div>
+    </div>
+  </nav>
+  <!-- End Navigation -->
+
+  <!-- Start Intro -->
+  <section id="intro">
+    <div class="intro-container">
+      <div class="item">
+        <img class="bgImage" src="img/intro1.jpg" alt="">
+        <div class="intro-container2">
+          <div class="intro-content">
+            <h2 class="animated fadeInDown">DH.KIM</h2>
+            <p class="animated fadeInUp">Full stack developer (With a strong focus on Frontend Development as well as UX/UI development) with a diverse set of skills that allows me to efficiently work both client side and server side. Dedicated and driven to create clean, simple and beautiful sites.</p>
+            <a href="#about" class="btn-get-started animated fadeInUp">Find Out More</a>
+          </div>
         </div>
       </div>
+  </section>
+  <!-- End Intro -->
+
+  <!-- Start About -->
+  <section id="about" class="home-section bg-white">
+    <div class="container">
       <div class="row">
-        <div class="col-md-6 offset-md-3">
-          <div class="summary">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere mauris vitae laoreet pretium. Praesent accumsan, erat quis interdum iaculis, mauris ligula tincidunt elit, et dignissim est risus sed ligula. Nunc rhoncus maximus ligula eu tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec vel lectus urna. Nam scelerisque ornare quam ac gravida. Fusce sollicitudin vehicula aliquam.
+        <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="heading-line"></div>
+            <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-lg-6 col-md-6 col-sm-12 about-img">
+          <img src="https://pmcvariety.files.wordpress.com/2015/12/pulpfiction_new.jpg?w=1000&h=563&crop=1" alt="">
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 content">
+          <h2>Well, the way they make shows is, they make one show. That show's called a pilot.</h2>
+          <h3>Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing.</h3>
+          <p>
+            Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About -->
+
+  <!-- Parallax 1 Start -->
+  <section id="parallax1" class="home-section parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="color-light">
+            <h2 class="wow bounceInDown" data-wow-delay="0.5s">Do you see any Teletubbies in here?</h2>
+            <p class="lead wow bounceInUp" data-wow-delay="1s">Do you see a slender plastic tag clipped to my shirt with my name printed on it?</p>
           </div>
         </div>
       </div>
     </div>
+  </section>
+  <!-- Parallax 1 End -->
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12">
+          <div class="section-heading">
+            <h2>Portfolio</h2>
+            <div class="heading-line"></div>
+            <p>You think water moves fast? You should see ice. It moves like it has a mind. </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="portfolio-card">
+            <img class="img-responsive" src="https://www.equalityohio.org/wp-content/themes/mast/images/empty-photo.jpg" alt="">
+            <div class="portfolio-card-info">
+              <h4 class="card-header">
+                Project #1
+              </h4>
+              <p class="card-body">
+                HTML, CSS, TypeScript, Angular 5
+              </p>
+              <div class="btn btn-default card-button" data-toggle="modal" data-target="#project1-modal">
+                Learn More
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="portfolio-card">
+            <img class="img-responsive" src="https://www.equalityohio.org/wp-content/themes/mast/images/empty-photo.jpg" alt="">
+            <div class="portfolio-card-info">
+              <h4 class="card-header">
+                Project #2
+              </h4>
+              <p class="card-body">
+                HTML, CSS, TypeScript, Angular 5
+              </p>
+              <div class="btn btn-default card-button" data-toggle="modal" data-target="#project2-modal">
+                Learn More
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="portfolio-card">
+            <img class="img-responsive" src="https://www.equalityohio.org/wp-content/themes/mast/images/empty-photo.jpg" alt="">
+            <div class="portfolio-card-info">
+              <h4 class="card-header">
+                Project #3
+              </h4>
+              <p class="card-body">
+                HTML, CSS, TypeScript, Angular 5
+              </p>
+              <div class="btn btn-default card-button" data-toggle="modal" data-target="#project3-modal">
+                Learn More
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="portfolio-card">
+            <img class="img-responsive" src="https://www.equalityohio.org/wp-content/themes/mast/images/empty-photo.jpg" alt="">
+            <div class="portfolio-card-info">
+              <h4 class="card-header">
+                Project #1
+              </h4>
+              <p class="card-body">
+                HTML, CSS, TypeScript, Angular 5
+              </p>
+              <div class="btn btn-default card-button" data-toggle="modal" data-target="#project4-modal">
+                Learn More
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="portfolio-card">
+            <img class="img-responsive" src="https://www.equalityohio.org/wp-content/themes/mast/images/empty-photo.jpg" alt="">
+            <div class="portfolio-card-info">
+              <h4 class="card-header">
+                Project #2
+              </h4>
+              <p class="card-body">
+                HTML, CSS, TypeScript, Angular 5
+              </p>
+              <div class="btn btn-default card-button" data-toggle="modal" data-target="#project5-modal">
+                Learn More
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="portfolio-card">
+            <img class="img-responsive" src="https://www.equalityohio.org/wp-content/themes/mast/images/empty-photo.jpg" alt="">
+            <div class="portfolio-card-info">
+              <h4 class="card-header">
+                Project #3
+              </h4>
+              <p class="card-body">
+                HTML, CSS, TypeScript, Angular 5
+              </p>
+              <div class="btn btn-default card-button" data-toggle="modal" data-target="#project6-modal">
+                Learn More
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio End -->
+  <!-- Portfolio Modals Start -->
+  <div class="modal fade portfolio-card-modal" id="project1-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
   </div>
+</div>
+  <!-- Portfolio Modals End -->
 
-
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script type="text/javascript" href="scripts/portfolio.js"></script>
+  <!-- JS -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <!-- <script src="js/modernizr.custom.js"></script> -->
+  <!-- <script src="js/grid.js"></script> -->
+  <script src="js/stellar.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+  <script src="js/custom.js"></script>
 </body>
 
 </html>
