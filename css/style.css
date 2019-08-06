@@ -437,5 +437,39 @@ Portfolio
 }
 
 .portfolio-card-modal {
-  top: 20%;
+  top: 10%;
+}
+
+.portfolio-card-modal .portfolio-btn-container {
+  display: flex;
+}
+
+.portfolio-card-modal .modal-header {
+  padding: 0px;
+}
+
+.portfolio-card-modal .modal-header .close {
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+.portfolio-card-modal .modal-body {
+  padding: 0px;
+}
+
+.portfolio-card-modal .portfolio-modal-info .modal-title {
+  border-bottom: 2px solid #e2e2e2;
+  width: 50%;
+  padding-bottom: 5px;
+}
+
+.portfolio-card-modal .portfolio-modal-info .modal-title,
+.portfolio-card-modal .portfolio-modal-info .modal-body-header,
+.portfolio-card-modal .portfolio-modal-info p.portfolio-modal-body {
+  text-align: left;
+}
+
+.portfolio-modal-info {
+  padding: 20px;
 }
